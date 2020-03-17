@@ -1,5 +1,21 @@
+@keyframes background-change{
+  0%{
+    background-color: red;
+  }
+  25%{
+    background-color: tomato;
+  }
+  75%{
+    background-color: yellow;
+  }
+  100%{
+    background-color: red
+  }
+}
+
 body{
   background-color: rgb(159, 250, 239);
+  animation: background-change 5s infinite;
 }
 img{
   width: 80vw;
