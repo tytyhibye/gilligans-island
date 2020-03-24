@@ -31,6 +31,7 @@ img{
 h1,h2{
   text-align: center;
   color: rgb(64, 64, 75);
+  margin-top: 10%;
 }
 li{
   background-image: linear-gradient(#834750, #970903);
@@ -43,4 +44,7 @@ p{
 h3{
   margin-left: 10vw;
   margin-bottom: 30vh;
+}
+.nav-link {
+  margin-left: 10%;
 }
